@@ -1,0 +1,161 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+nav {
+    z-index: 10;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    background: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background: #575757;
+    color: #ffcc00;
+}
+
+main {
+    padding-top: 80px; 
+}
+
+.content {
+    margin: 20px auto;
+    padding:10px 20px;
+    max-width: 1500px; 
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    scroll-margin-top: 80px; 
+}
+
+
+.content h1, .content h2, .content p {
+    margin-top: 0;
+}
+
+h1, h2, h3 {
+    color: #4CAF50;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+
+p {
+    margin: 10px 0;
+}
+#socialnetworks {
+    margin: 0 ;
+    padding-top: 10px;
+}
+
+.Télécharger {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.Télécharger:hover {
+    background-color: #0056b3;
+}
+.images_portfolio {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.image_portfolio {
+    width: 55%; 
+    height: auto;
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.image_portfolio:hover {
+    transform: scale(1.15); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); 
+}
+figcaption {
+    font-size: 14px;
+    color: #333;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.image_moi {
+    height: 100%; 
+    border-radius: 10px; 
+    width: 30%;
+}
+.formation-contenu, .FA, .exp, .moi, .Lecture {
+    display: flex; 
+    align-items: top; 
+    margin-bottom: 20px; 
+    flex-direction: row-reverse; 
+}
+
+.texte-moi, .exp-texte, .Lecture-texte, .FA-texte, .formation-texte{
+    flex: 1; 
+    padding-left: 5px; 
+}
+
+.formation-img, .image_fa, .image_hp, .exp-img {
+    width: 20%; 
+    height: 100%; 
+    border-radius: 10px; 
+}
+
+.image_cisco{
+    width: 100%; 
+    height: auto;
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+}
+.icone{
+    width: 40px; 
+    height: auto;
+}
